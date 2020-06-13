@@ -1,10 +1,6 @@
 Algoritmo "troco"
-
 Var
      preco, dinheiro, troco : real
-     quantidade : inteiro
-
-
 Inicio
          escreva ("preco unitario do produto: ")
          leia (preco)
@@ -16,5 +12,4 @@ Inicio
     troco <- dinheiro - preco * quantidade
     escreva ("TROCO = ", troco)
     leia (troco)
-
 Fimalgoritmo

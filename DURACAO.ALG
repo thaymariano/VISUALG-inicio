@@ -1,9 +1,6 @@
 Algoritmo "duracao"
-
 Var
       horas, duracao, resto, minutos, segundos : inteiro
-
-
 Inicio
      escreva ("Digite a duracao em segundos: ")
      leia (duracao)
@@ -14,8 +11,6 @@ Inicio
       minutos <- resto \ 60
       segundos <- resto % 60
       
-      escreval (horas, ":" , minutos, ":", segundos)
+      escreval (horas, ":" , minutos, ":", segundos)     
       
-      
-
 Fimalgoritmo
